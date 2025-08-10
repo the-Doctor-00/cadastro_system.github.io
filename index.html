@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .main-page {
+            display: flex;
+            width: 700px;
+            height: 500px;
+            border: 1px solid black;
+            background-color: grey;
+            padding: 20px;
+        }
+    
+        .login-rightside {
+            background-color: rgb(53, 61, 134);
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+
+            padding: 20px;
+            
+        }
+        .login-leftside {
+            background-color: rgb(133, 54, 54);
+            display: flex;
+            align-items: center;
+
+            padding: 30px;
+            font-size: 23px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-page">
+        <div class="login-leftside"><h2>WELCOME TO MY SITE TEST</h2></div>
+
+        <div class="login-rightside">
+            <h2>User Login</h2>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" placeholder="digite aqui seu email"/>
+            </div>
+            <div>
+                <lavel for="password">Password:</lavel>
+                <input type="password" id="password" placeholder="digite aqui sua senha"/>
+            </div>
+            <div>
+                <button>ENTER</button>
+            </div>
+            <a href="#">forgot password</a>
+            <h4>Log with</h4>
+            <div style="display: flex;gap: 10px;">
+                <div>Google</div>
+                <div>Reedit</div>
+                <div>GiHub</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
